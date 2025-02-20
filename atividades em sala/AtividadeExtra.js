@@ -53,6 +53,14 @@ Saída: 1, 3, 5, 8, 9
 
 */
 
+//01 atividade
+const imaparpar = (num) => {
+  return num % 2 == 0 ? "O número é par!" : "O número é ímpar!";
+};
+console.log(imaparpar(10));
+console.log(imaparpar(3));
+console.log(imaparpar(2));
+
 // 02 prof
 var tabuada = 6;
 console.log(tabuada, "x 1 =", tabuada * 1);
